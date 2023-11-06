@@ -6,7 +6,7 @@ pipeline {
             steps {
                 // Check out the code from your GitHub repository
                 checkout([$class: 'GitSCM', 
-                    branches: [[name: 'main']], 
+                    branches: [[name: 'master']], 
                     doGenerateSubmoduleConfigurations: false, 
                     extensions: [], 
                     submoduleCfg: [], 
